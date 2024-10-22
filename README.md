@@ -1,6 +1,6 @@
 # Desmos Drive
 ### Features
-- Store small files on Desmos servers
+- Store ~~small~~ **any** files on Desmos servers
 - No API key required
 - No security :D
 ### Usage
