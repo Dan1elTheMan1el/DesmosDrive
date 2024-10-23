@@ -13,6 +13,7 @@ TODO:
 - Handle missing files
 - Handle http request errors
 - Compression
+- Manage drive
 '''
 
 #Prompt for Upload / Download
@@ -80,8 +81,7 @@ if ans == '1':
         'Referer': 'https://desmos.com/calculator/',
         'Sec-Fetch-Dest': 'empty',
         'Sec-Fetch-Mode': 'cors',
-        'Sec-Fetch-Site': 'same-origin',
-        'Cookie': 'AWSALB=pNfK7bLdwmhp6d3kzrnjBy50jJpFlRq4a+J2n4+NEPchQI1+qvwvuV+YSOeJv2LdlDi+yoLVsdB6wB07Hqz2Gr3D92htrqnbx+3Ht398uJCsfX/s+vHaZ/PZDF1Q; AWSALBCORS=pNfK7bLdwmhp6d3kzrnjBy50jJpFlRq4a+J2n4+NEPchQI1+qvwvuV+YSOeJv2LdlDi+yoLVsdB6wB07Hqz2Gr3D92htrqnbx+3Ht398uJCsfX/s+vHaZ/PZDF1Q'
+        'Sec-Fetch-Site': 'same-origin'
         }
         response = requests.request("POST", "https://www.desmos.com/api/v1/calculator/save", headers=headers, data=request)
 
