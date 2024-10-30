@@ -1,5 +1,6 @@
 # Desmos Drive
 *Note: Not affiliated with Desmos*
+### Using this tool to upload large amounts of data violates Desmos’s terms of service and may jeopardize your ability to continue to use Desmos’s tools.
 ## Features
 - Store ~~small~~ **any** files on Desmos servers
 - No API key required
